@@ -1,5 +1,6 @@
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "/"         
+languageCode = 'ru-ru'
+title = 'Набиуллин Артур 241-326'
 theme = 'ananke'
 publishDir = "../site"  # Генерировать сайт в соседнюю папку
-baseURL = "/"           # Для корректных путей в HTML
+
