@@ -17,19 +17,19 @@ publishDir = "../site"  # Генерировать сайт в соседнюю 
 [[menu.main]]
     identifier = "about"
     name = "О проекте"
-    url = "/about/"
+    url = "/о-проекте/"
     weight = 2
 
 [[menu.main]]
     identifier = "team"
     name = "Участники"
-    url = "/team/"
+    url = "/участники/"
     weight = 3
 
 [[menu.main]]
     identifier = "resources"
     name = "Ресурсы"
-    url = "/resources/"
+    url = "/ресурсы/"
     weight = 4
 
 
