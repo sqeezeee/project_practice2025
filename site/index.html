@@ -47,8 +47,8 @@
   <meta property="og:type" content="website">
 
   <meta itemprop="name" content="Проект по социально-экономическим показателям стран">
-  <meta itemprop="datePublished" content="2025-06-27T13:33:33+03:00">
-  <meta itemprop="dateModified" content="2025-06-27T13:33:33+03:00">
+  <meta itemprop="datePublished" content="2025-06-26T00:00:00+03:00">
+  <meta itemprop="dateModified" content="2025-06-26T00:00:00+03:00">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Проект по социально-экономическим показателям стран">
 
@@ -113,14 +113,14 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/journal/" class="color-inherit dim link">
+          <a href="/journal/journal/" class="color-inherit dim link">
             Журнал
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
           
         </div>
-        <a href="/journal/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        <a href="/journal/journal/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
       </div>
     </div>
   </div>
@@ -136,14 +136,30 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/resources/" class="color-inherit dim link">
-            Источники
+          <a href="/journal/page3/" class="color-inherit dim link">
+            Соединение БД и кода
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          
+          <h1 id="готовое-приложение-анализ-социально-экономических-данных">Готовое приложение: анализ социально-экономических данных</h1>
+<p>Мы завершили полнофункциональное desktop-приложение для анализа социально-экономических показателей стран. Вот что у нас получилось:</p>
+<h2 id="-основные-возможности">📊 Основные возможности</h2>
+<p>Работа с базой данных</p>
+<p>Просмотр всех 7 таблиц (без написания SQL)</p>
+<p>Фильтрация данных по странам и годам</p>
+<p>Гибкие SQL-запросы</p>
+<p>Встроенный редактор</p>
+<p>Визуализация</p>
+<p>Сравнение стран на одном поле</p>
+<h2 id="теперь-хотелось-бы-продемонстрировать-как-выглядит-наше-приложение-и-какими-функциями-обладает">Теперь хотелось бы продемонстрировать как выглядит наше приложение и какими функциями обладает:</h2>
+<h3 id="интерфейс-нашего-приложения">Интерфейс нашего приложения:</h3>
+<p><img src="../../assets/static/images/app.png" alt="app"></p>
+<h3 id="просмотр-выбранной-таблицы">Просмотр выбранной таблицы:</h3>
+<p><img src="../../assets/static/images/table_window.png" alt="table_window"></p>
+<h3 id="выполнение-sql-запросов">Выполнение SQL-запросов:</h3>
+<p><img src="../../assets/static/images/example_SQL_query.png" alt="sql_query"></p>
         </div>
-        <a href="/resources/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        <a href="/journal/page3/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
       </div>
     </div>
   </div>
@@ -159,14 +175,28 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/team/" class="color-inherit dim link">
-            Команда
+          <a href="/journal/page1/" class="color-inherit dim link">
+            Создание БД
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          
+          <h1 id="-создание-базы-данных-социально-экономических-показателей">🚀 Создание базы данных социально-экономических показателей</h1>
+<h2 id="этап-1-скачивание-и-анализ-датасета">Этап 1: Скачивание и анализ датасета</h2>
+<p>Для проекта мы установили датасет с большим колическом социально-экономических показателей стран и проанализировали эти данные, выстроилии примерный вектор работы и начали действовать!</p>
+<h2 id="этап-2-проектирование-бд-в-postgresql">Этап 2: Проектирование БД в PostgreSQL</h2>
+<p>Создали реляционную базу данных с 7 основными таблицами:</p>
+<ol>
+<li>employment_forms</li>
+<li>employment_population_ratio</li>
+<li>unemployment_ratio</li>
+<li>education_levels</li>
+<li>survival_rate</li>
+<li>country_decoder</li>
+<li>time_decoder</li>
+</ol>
+<p>Например последние две таблицы нам нужны для того, чтобы сэкономить место - а именно, в этих таблицах содержатся соотношения кодовых названий стран и кодовых названий годов соответственно, а значит эти данные не нужно включать в каждую таблицу, при необходимости мы только лишь будем брать их из специальных таблиц.</p>
         </div>
-        <a href="/team/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        <a href="/journal/page1/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
       </div>
     </div>
   </div>
@@ -182,14 +212,8 @@
           
           
             <h2 class="f5 fw4 mb4 dib mr3">
-              <a href="/about/" class="link black dim">
-                О проекте
-              </a>
-            </h2>
-          
-            <h2 class="f5 fw4 mb4 dib mr3">
-              <a href="/home/" class="link black dim">
-                Главная
+              <a href="/journal/page2/" class="link black dim">
+                Создание графического интерфейса
               </a>
             </h2>
           

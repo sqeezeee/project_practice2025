@@ -18,6 +18,6 @@ description = "Ссылки на партнёров, открытые данны
 
 | Название | Описание | Ссылка |
 |----------|----------|--------|
-| DB Browser for SQLite | Просмотр локальных баз | [sqlitebrowser.org](https://sqlitebrowser.org) |
+| pgAdmin | Просмотр локальных баз | [pgadmin.org/](https://www.pgadmin.org/) |
 | Pandas | Анализ данных в Python | [pandas.pydata.org](https://pandas.pydata.org) |
 | Psycopg2 | Подключение БД | [pythonru.com](https://pythonru.com/biblioteki/vvedenie-v-postgresql-s-python-psycopg2) |
