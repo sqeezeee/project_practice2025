@@ -20,4 +20,4 @@ description = "Ссылки на партнёров, открытые данны
 |----------|----------|--------|
 | DB Browser for SQLite | Просмотр локальных баз | [sqlitebrowser.org](https://sqlitebrowser.org) |
 | Pandas | Анализ данных в Python | [pandas.pydata.org](https://pandas.pydata.org) |
-| sqlite3 | Подключение БД | [python.org](https://docs.python.org/3/library/sqlite3.html) |
+| Psycopg2 | Подключение БД | [pythonru.com](https://pythonru.com/biblioteki/vvedenie-v-postgresql-s-python-psycopg2) |
