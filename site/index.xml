@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Набиуллин Артур 241-326</title>
+    <title>Проект по социально-экономическим показателям стран</title>
     <link>//localhost:1313/</link>
-    <description>Recent content on Набиуллин Артур 241-326</description>
+    <description>Recent content on Проект по социально-экономическим показателям стран</description>
     <generator>Hugo</generator>
     <language>ru-ru</language>
     <lastBuildDate>Fri, 27 Jun 2025 13:33:33 +0300</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
-      <link>//localhost:1313/about/</link>
-      <pubDate>Fri, 27 Jun 2025 13:33:33 +0300</pubDate>
-      <guid>//localhost:1313/about/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Journal</title>
+      <title>Журнал</title>
       <link>//localhost:1313/journal/</link>
       <pubDate>Fri, 27 Jun 2025 13:33:33 +0300</pubDate>
       <guid>//localhost:1313/journal/</guid>
       <description></description>
     </item>
     <item>
-      <title>Resources</title>
+      <title>Источники</title>
       <link>//localhost:1313/resources/</link>
       <pubDate>Fri, 27 Jun 2025 13:33:33 +0300</pubDate>
       <guid>//localhost:1313/resources/</guid>
       <description></description>
     </item>
     <item>
-      <title>Team</title>
+      <title>Команда</title>
       <link>//localhost:1313/team/</link>
       <pubDate>Fri, 27 Jun 2025 13:33:33 +0300</pubDate>
       <guid>//localhost:1313/team/</guid>
       <description></description>
     </item>
     <item>
+      <title>О проекте</title>
+      <link>//localhost:1313/about/</link>
+      <pubDate>Fri, 27 Jun 2025 13:33:33 +0300</pubDate>
+      <guid>//localhost:1313/about/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Главная</title>
       <link>//localhost:1313/home/</link>
-      <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 20 Jun 2024 00:00:00 +0300</pubDate>
       <guid>//localhost:1313/home/</guid>
       <description>&lt;h2 id=&#34;аннотация-проекта&#34;&gt;Аннотация проекта&lt;/h2&gt;&#xA;&lt;p&gt;Здесь краткое описание вашего проекта&amp;hellip;&lt;/p&gt;</description>
     </item>
