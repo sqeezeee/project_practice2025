@@ -38,3 +38,9 @@ publishDir = "../site"  # Генерировать сайт в соседнюю 
     name = "Журнал"
     url = "/journal/"
     weight = 10
+
+[[menu.main]]
+    identifier = "landing"
+    name = "Лендинг"
+    url = "/мониторинг-прогресса-проекта/"
+    weight = 11
