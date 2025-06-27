@@ -1,4 +1,5 @@
-baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'ananke'
+publishDir = "../site"  # Генерировать сайт в соседнюю папку
+baseURL = "/"           # Для корректных путей в HTML
