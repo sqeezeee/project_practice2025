@@ -26,10 +26,10 @@ description = "Последние обновления и прогресс в р
 ## Теперь хотелось бы продемонстрировать как выглядит наше приложение и какими функциями обладает:
 
 ### Интерфейс нашего приложения:
-![app](../../assets/static/images/app.png)
+![app](/images/app.png) 
 
 ### Просмотр выбранной таблицы:
-![table_window](../../assets/static/images/table_window.png)
+![table_window](/images/table_window.png)
 
 ### Выполнение SQL-запросов:
-![sql_query](../../assets/static/images/example_SQL_query.png)
+![sql_query](/images/example_SQL_query.png)
