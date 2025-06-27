@@ -5,4 +5,29 @@ theme = 'ananke'
 publishDir = "../site"  # Генерировать сайт в соседнюю папку
 
 [permalinks]
-    pages = "/:slug/" 
+    pages = "/:slug/"       
+    journal = "/journal/:filename/"  
+
+[[menu.main]]
+    identifier = "home"
+    name = "Главная"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    identifier = "about"
+    name = "О проекте"
+    url = "/about/"
+    weight = 2
+
+[[menu.main]]
+    identifier = "team"
+    name = "Команда"
+    url = "/team/"
+    weight = 3
+
+[[menu.main]]
+    identifier = "journal"
+    name = "Журнал"
+    url = "/journal/"
+    weight = 10
